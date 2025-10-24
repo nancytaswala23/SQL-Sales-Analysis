@@ -1,0 +1,7 @@
+INSERT INTO EMP (EMPNO, ENAME, JOB, SAL)
+VALUES (101, 'Alice', 'CLERK', 3000);
+
+COMMIT;
+
+SELECT * FROM EMP;           
+
